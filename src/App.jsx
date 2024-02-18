@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
 import About from './components/About';
 import Footer from './components/Footer'
+import Faqs from './components/Faqs'
+import Review from './components/Review';
 
 
 
@@ -15,9 +17,11 @@ function App() {
     
     <div className="App">
       
-      <Navbar/>
-      <Home/>
-      <About/>
+      <Navbar />
+      <Home />
+      <About />
+      <Review />
+      <Faqs />
       <Footer />
     </div>
     </>
