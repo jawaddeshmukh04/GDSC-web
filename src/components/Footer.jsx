@@ -38,19 +38,18 @@ function Footer() {
   <div className="mr-5">
     <p className="line-height-10 text-gray-900 dark:text-white">HOME</p>
 
-    <ul className="mt-3 space-y-2 text-sm ">
-      <li className="flex">
+    <ul className="space-y-2 text-sm">
+      <li className="text-center">
         <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 mr-5 text-center">About GDSC</a>
-        <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 text-center">Team</a>
+        <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 mr-5 text-center">Team</a>
       </li>
     </ul>
   </div>
 
   <div className=''>
     <p className="text-gray-900 dark:text-white ">EVENTS</p>
-
-    <ul className="mt-3 space-y-2 text-sm text-center">
-      <li className="flex ">
+    <ul className="mt-3 space-y-2 text-sm">
+      <li className="text-center">
         <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 mr-5">Google Cloud</a>
         <a href="#" className="text-gray-700 transition hover:opacity-50 dark:text-gray-200 mr-5">Android dev</a>
         <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">Web dev</a>
